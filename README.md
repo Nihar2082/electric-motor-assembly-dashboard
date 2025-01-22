@@ -95,6 +95,7 @@ You can modify the analysis.py script to include additional visualizations or ad
 
 ### Example Outputs
 
-Motor Type    Assembly Time (min)    Efficiency Rating (%)    Defect Rate (%)    Production Date
-A             42                      85                       3.2                2024-01-15
-B             36                      90                       1.4                2024-02-20
+| Motor Type | Assembly Time (min) | Efficiency Rating (%) | Defect Rate (%) | Production Date |
+|------------|----------------------|-----------------------|-----------------|-----------------|
+| A          | 42                   | 85                    | 3.2             | 2024-01-15      |
+| B          | 36                   | 90                    | 1.4             | 2024-02-20      |
