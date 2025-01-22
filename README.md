@@ -1,7 +1,6 @@
-
 # Electric Motor Assembly Dashboard
 
-This project simulates and visualizes data for an electric motor assembly line. It generates simulated production data, analyzes key performance indicators (KPIs), and saves visualizations using Python libraries. The project also serves as a foundation for AWS Quicksight dashboards, providing deeper insights into the performance of the assembly line.
+This project simulates and visualizes data for an electric motor assembly line. It generates simulated production data, analyzes key performance indicators (KPIs), and saves visualizations using Python libraries.
 
 ## Features
 
