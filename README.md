@@ -25,7 +25,7 @@ Follow the steps below to set up the project on your local machine.
 
 Clone this repository to your local machine:
 
-```bash
+<!-- ```bash -->
 git clone <repository-url>
 cd electric-motor-assembly-dashboard
 
@@ -33,7 +33,6 @@ cd electric-motor-assembly-dashboard
 
 Use the requirements.txt file to install the necessary dependencies:
 
-```bash
 pip install -r requirements.txt
 
 
