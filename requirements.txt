@@ -1,0 +1,5 @@
+# This file lists the dependencies required for the project.
+# When you run `pip install -r requirements.txt`, the specified libraries will be installed.
+
+pandas       # A Python library for data manipulation and analysis.
+matplotlib   # A library for creating static, animated, and interactive visualizations in Python.
