@@ -27,8 +27,9 @@ Clone this repository to your local machine:
 ```bash
 git clone <repository-url>
 ```
+```bash
 cd electric-motor-assembly-dashboard
-
+```
 ### 2. Install dependencies
 
 Use the requirements.txt file to install the necessary dependencies:
