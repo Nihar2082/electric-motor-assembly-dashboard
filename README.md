@@ -1,22 +1,32 @@
+# Electric Motor Assembly Dashboard  
 
-### **Directory Descriptions**
+This project simulates and visualizes data for an electric motor assembly line. It uses Python for data generation and analysis, and includes dashboards for visualizing key performance indicators (KPIs) like assembly time, efficiency, and defect rates.  
 
-- **data/**: Contains the simulated data files used in the project.
-- **dashboards/**: Stores saved visualizations like Quicksight reports or screenshots of your dashboards.
-- **scripts/**: Python scripts for processing the data.
-- **notebooks/**: Jupyter notebooks (if used for analysis).
-- **src/**: Contains the backend simulation code, including data generation and analysis.
-    - **data_generator.py**: Generates simulated data for the assembly line.
-    - **analysis.py**: Contains code for analyzing and visualizing the data.
-- **README.md**: This file that explains the project setup and structure.
-- **LICENSE**: An optional file for specifying the project’s license.
-- **requirements.txt**: A list of the Python dependencies needed for the project (e.g., NumPy, Pandas, Matplotlib, etc.).
+---
 
-## Getting Started
+## Project Overview  
 
-### Prerequisites
+The purpose of this project is to analyze production trends in an electric motor assembly line by generating and visualizing simulated data. Insights derived from this analysis can help improve production efficiency and identify bottlenecks.  
 
-To run this project, make sure you have Python 3.6+ installed and the necessary dependencies. You can install them using the following command:
+### Features:  
+- Simulated electric motor production data (motor type, assembly time, defect rate, etc.)  
+- Visualization of KPIs, including assembly time distribution and efficiency vs. defect rate  
+- Easy-to-run scripts for data generation and analysis  
 
-```bash
-pip install -r requirements.txt
+---
+
+## Project Structure  
+
+```plaintext
+electric-motor-assembly-dashboard/
+│
+├── data/               # Simulated data files
+├── dashboards/         # Saved visualizations (e.g., screenshots)
+├── scripts/            # Python scripts for data processing
+├── notebooks/          # Jupyter notebooks (optional)
+├── src/                # Code for backend simulation
+│   ├── data_generator.py  # Script to generate simulated data
+│   └── analysis.py       # Script for analysis and visualization
+├── README.md           # Project overview and setup instructions
+├── LICENSE             # Optional license for the project
+└── requirements.txt    # List of dependencies
