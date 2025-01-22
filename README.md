@@ -21,7 +21,7 @@ This project simulates and visualizes data for an electric motor assembly line. 
 
 Follow the steps below to set up the project on your local machine.
 
-s 1. Clone the repository
+### 1. Clone the repository
 
 Clone this repository to your local machine:
 
