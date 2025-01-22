@@ -25,19 +25,19 @@ Follow the steps below to set up the project on your local machine.
 
 Clone this repository to your local machine:
 
-
+```bash
 git clone <repository-url>
+```
 cd electric-motor-assembly-dashboard
 
 ### 2. Install dependencies
 
 Use the requirements.txt file to install the necessary dependencies:
-
-pip install -r requirements.txt
-
 ```bash
+pip install -r requirements.txt
+```
 ## Project Structure
-
+```bash
 electric-motor-assembly-dashboard/
 │
 ├── data/               # Simulated data files
@@ -56,9 +56,9 @@ electric-motor-assembly-dashboard/
 
 ### 1. Generate Simulated Data
 Run the data_generator.py script to generate simulated production data:
-
+```bash
 python src/data_generator.py
-
+```
 This script will create a CSV file called Electric_Motor_Production_Data.csv in the data/ folder, containing 100 rows of simulated data about motor assembly operations. It includes columns such as:
 
 Motor Type: The type of motor (A, B, or C).
@@ -70,9 +70,9 @@ Production Date: The date the motor was assembled.
 ### 2. Run the Data Analysis Script
 
 Next, run the analysis.py script to analyze the data and create visualizations:
-
+```bash
 python src/analysis.py
-
+```
 This script will:
 
 Load the generated data from Electric_Motor_Production_Data.csv.
